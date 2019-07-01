@@ -15,6 +15,7 @@ The actor admin of the website after successful login can add and manage (edit/u
 maindata TABLE :
 
 This table contains following attributes which records respective data of plants in database.
+
 Id(Integer)
 plantsName(String)
 commonName(String
@@ -27,7 +28,6 @@ partsUsed(String
 
 diseasestable  table:
 This table links the data of disease to maintable containing records of plants.The diseases are sorted alphabetically.So this table links the disease with maindata table .
-
 
 Id1(Integer)
 DiseaseName(String)
